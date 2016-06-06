@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		582A110C1D05F65D00BE7493 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582A110B1D05F65D00BE7493 /* Login.storyboard */; };
 		582A11121D05FA9700BE7493 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582A11111D05FA9700BE7493 /* SignupViewController.swift */; };
+		582A11151D06166E00BE7493 /* CloudTrackerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582A11141D06166E00BE7493 /* CloudTrackerAPI.swift */; };
 		CA1292781B150DF500303C8D /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1292771B150DF500303C8D /* RatingControl.swift */; };
 		CA1902E01B10E523000271C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1902DF1B10E523000271C4 /* AppDelegate.swift */; };
 		CA1902E21B10E523000271C4 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1902E11B10E523000271C4 /* MealViewController.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		582A110B1D05F65D00BE7493 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		582A11111D05FA9700BE7493 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		582A11141D06166E00BE7493 /* CloudTrackerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudTrackerAPI.swift; sourceTree = "<group>"; };
 		CA1292771B150DF500303C8D /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		CA1902DC1B10E523000271C4 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1902DF1B10E523000271C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,14 @@
 			name = Signup;
 			sourceTree = "<group>";
 		};
+		582A11131D06164800BE7493 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				582A11141D06166E00BE7493 /* CloudTrackerAPI.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		CA1902D31B10E523000271C4 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +139,7 @@
 		CA1902DE1B10E523000271C4 /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
+				582A11131D06164800BE7493 /* API */,
 				582A110F1D05F71C00BE7493 /* Controller */,
 				582A110E1D05F70600BE7493 /* Model */,
 				582A110D1D05F6CD00BE7493 /* UI */,
@@ -253,6 +264,7 @@
 				CA1902E21B10E523000271C4 /* MealViewController.swift in Sources */,
 				CA1292781B150DF500303C8D /* RatingControl.swift in Sources */,
 				CA1902E01B10E523000271C4 /* AppDelegate.swift in Sources */,
+				582A11151D06166E00BE7493 /* CloudTrackerAPI.swift in Sources */,
 				CA5D06031B162F2300095F0F /* MealTableViewController.swift in Sources */,
 				CA5D06011B162F2300095F0F /* MealTableViewCell.swift in Sources */,
 			);
